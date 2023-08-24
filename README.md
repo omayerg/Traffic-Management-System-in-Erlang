@@ -55,9 +55,25 @@ The Car Management System is a distributed application designed to simulate a tr
 The Car Management System simulation will run with the following behaviors:
 
 - **Accidents**: When accidents occur, cars involved will disappear from the map and be removed.
-- **Car Speed**: Each car's speed is set to 15 km/h.
+- **Car Speed**: Each car's speed is set to be uniform.
 - **Car Following**: When a car approaches another car from behind, it waits for the front car to move before proceeding.
 - **Car Generation**: As cars exit, new cars are immediately created and inserted into the map from entrances.
 - **Node Resilience**: If one of the nodes is killed, the system remains operational as the nodes backup each other's data.
 
 Please note that this guide assumes that you have the necessary Erlang runtime environment and the source code files in place. Make sure to replace placeholders like `NODEN` and `HOSTNAME` with actual node identifiers and hostnames. Also, ensure that the mentioned behaviors are correctly implemented in your source code.
+
+## Graphics with wxWidgets
+In our project, we've chosen to utilize wxWidgets for handling graphics and user interface components. wxWidgets is a powerful and modern C++ framework that provides a comprehensive set of tools for creating visually appealing and interactive applications.
+
+**Why wxWidgets?**
+Modern and Cross-Platform: One of the primary reasons we opted for wxWidgets is its ability to create cross-platform applications. Whether our users are on Windows, macOS, or Linux, our graphics and interface will provide a consistent experience.
+
+**Ease of Use**: wxWidgets offers a user-friendly interface, making it an ideal choice for both experienced developers and newcomers. Its intuitive design allows us to focus on crafting engaging graphics rather than getting bogged down in complicated implementation details.
+
+**Rich Library of Widgets**: The framework boasts an extensive collection of widgets and controls that can be easily integrated into our application. This saves us time and effort by providing pre-built components that are customizable to suit our specific needs.
+
+**Customization**: Despite its ease of use, wxWidgets also offers a high level of customization. This enables us to tailor the graphics and interface to align with our project's unique requirements and design aesthetics.
+
+**Community and Support**: With an active and vibrant community, wxWidgets ensures that we have access to ample documentation, tutorials, and forums. This support network is invaluable in overcoming challenges and making the most of the framework's capabilities.
+
+**Open-Source**: As an open-source project, wxWidgets aligns with our values and allows us to contribute to its growth while benefiting from continuous improvements made by the community.
