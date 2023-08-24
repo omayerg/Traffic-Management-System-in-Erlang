@@ -58,7 +58,6 @@ The Car Management System simulation will run with the following behaviors:
 - **Car Speed**: Each car's speed is set to 15 km/h.
 - **Car Following**: When a car approaches another car from behind, it waits for the front car to move before proceeding.
 - **Car Generation**: As cars exit, new cars are immediately created and inserted into the map from entrances.
-- **Police Cars**: Police cars are present but do not currently have a defined role in the simulation.
 - **Node Resilience**: If one of the nodes is killed, the system remains operational as the nodes backup each other's data.
 
 Please note that this guide assumes that you have the necessary Erlang runtime environment and the source code files in place. Make sure to replace placeholders like `NODEN` and `HOSTNAME` with actual node identifiers and hostnames. Also, ensure that the mentioned behaviors are correctly implemented in your source code.
