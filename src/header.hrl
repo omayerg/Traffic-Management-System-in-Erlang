@@ -1,0 +1,5 @@
+-define(Master,'master@132.72.81.92').
+-define(NODE1, 'node1@132.72.81.92').
+-define(NODE2, 'node2@132.72.81.92').
+-define(NODE3, 'node3@132.72.81.92').
+-define(NODE4, 'node4@132.72.81.92').

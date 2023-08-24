@@ -1,0 +1,62 @@
+https://github.com/omayerg/-Erlang-Traffic-Management
+
+erl -setcookie cooki -name master@132.72.81.92
+c(cars).
+c(server).
+c(main).
+c(graphics).
+c(car_a_s).
+c(car_monitor).
+c(cars_manager).
+c(traffic_light).
+main:start().
+
+erl -setcookie cooki -name node1@132.72.81.92
+c(cars).
+c(server).
+c(main).
+c(graphics).
+c(car_a_s).
+c(car_monitor).
+c(cars_manager).
+c(traffic_light).
+
+erl -setcookie cooki -name node2@132.72.81.92
+c(cars).
+c(server).
+c(main).
+c(graphics).
+c(car_a_s).
+c(car_monitor).
+c(cars_manager).
+c(traffic_light).
+
+erl -setcookie cooki -name node3@132.72.81.92
+c(cars).
+c(server).
+c(main).
+c(graphics).
+c(car_a_s).
+c(car_monitor).
+c(cars_manager).
+c(traffic_light).
+
+erl -setcookie cooki -name node4@132.72.81.92
+c(cars).
+c(server).
+c(main).
+c(graphics).
+c(car_a_s).
+c(car_monitor).
+c(cars_manager).
+c(traffic_light).
+
+%Helper to Registered shell
+List=registered().
+io:format("~n~p~n",[List]).
+observer:start().
+main:start().
+global:registered_names().
+
+
+
