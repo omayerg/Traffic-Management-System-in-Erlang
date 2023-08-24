@@ -16,7 +16,7 @@ The Car Management System is a distributed application designed to simulate a tr
 1. For each of the five nodes, run the Erlang shell using the following command:
    
    ```
-   erl -setcookie cooki -name NODEN@HOSTNAME
+   erl -setcookie cooki -name nodeN@HOSTNAME
    ```
    
    Replace `NODEN` with a unique node identifier (e.g., `node1`, `node2`, etc.), and replace `HOSTNAME` with the hostname of the machine.
