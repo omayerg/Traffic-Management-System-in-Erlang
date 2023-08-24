@@ -63,7 +63,7 @@ The Car Management System simulation will run with the following behaviors:
 Please note that this guide assumes that you have the necessary Erlang runtime environment and the source code files in place. Make sure to replace placeholders like `NODEN` and `HOSTNAME` with actual node identifiers and hostnames. Also, ensure that the mentioned behaviors are correctly implemented in your source code.
 
 ## Graphics with wxWidgets
-In our project, we've chosen to utilize wxWidgets for handling graphics and user interface components. wxWidgets is a powerful and modern C++ framework that provides a comprehensive set of tools for creating visually appealing and interactive applications.
+In our project, we've chosen to utilize wxWidgets for handling graphics and user interface components. wxWidgets is a powerful and modern framework that provides a comprehensive set of tools for creating visually appealing and interactive applications.
 
 **Why wxWidgets?**
 Modern and Cross-Platform: One of the primary reasons we opted for wxWidgets is its ability to create cross-platform applications. Whether our users are on Windows, macOS, or Linux, our graphics and interface will provide a consistent experience.
